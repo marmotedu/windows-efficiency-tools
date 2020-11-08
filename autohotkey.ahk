@@ -9,12 +9,12 @@ SetControlDelay 0
 ; 如果软件没打开，则打开软件；如果软件已打开则置顶软件，如果软件已被置顶，则隐藏软件
 ActivateAndOpen(t,p)
 {
-	IfWinNotExist,ahk_exe %t%
+    IfWinNotExist,ahk_exe %t%
     Run, %p%
-    Else
+    Else 
     {
-		IfWinActive, ahk_exe %t%
-			WinMinimize
+        IfWinActive, ahk_exe %t%
+            WinMinimize
         Else
             WinActivate,				
     }
@@ -22,35 +22,35 @@ ActivateAndOpen(t,p)
     return 0
 }
 
-; 发送文本 t 到粘贴板
-SendToClipBoard(t)
-{
-        ;清空剪切板
-        clipboard =
-        clipboard = %t%
-        return 0
-}
-
 ; 一键打开所有软件
 OpenAll()
 {
-	IfWinNotExist,ahk_exe "Xshell.exe"
-	Run, "D:\EXE\MySave\Xshell-5.0\Xshell 5\Xshell.exe"
+    IfWinNotExist,ahk_exe "Xshell.exe"
+    Run, "D:\EXE\MySave\Xshell-5.0\Xshell 5\Xshell.exe"
 	
-	IfWinNotExist,ahk_exe "SecureCRT.exe"
-	Run, "C:\Program Files\VanDyke Software\SecureCRT\SecureCRT.exe"
+    IfWinNotExist,ahk_exe "SecureCRT.exe"
+    Run, "C:\Program Files\VanDyke Software\SecureCRT\SecureCRT.exe"
+    IfWinNotExist,ahk_exe "WXWork.exe"
 
-	IfWinNotExist,ahk_exe "WXWork.exe"
-	Run, "C:\Program Files (x86)\WXWork\WXWork.exe"
+    Run, "C:\Program Files (x86)\WXWork\WXWork.exe"
 
-	IfWinNotExist,ahk_exe "atom.exe"
-	Run, "C:\Users\lkong\AppData\Local\atom\app-1.43.0\atom.exe"
+    IfWinNotExist,ahk_exe "atom.exe"
+    Run, "C:\Users\lkong\AppData\Local\atom\app-1.43.0\atom.exe"
 
-	IfWinNotExist,ahk_exe "chrome.exe"
-	Run, "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe"
+    IfWinNotExist,ahk_exe "chrome.exe"
+    Run, "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe"
 
-	IfWinNotExist,ahk_exe "TOTALCMD64.EXE"
-	Run, "C:\Program Files\totalcmd\TOTALCMD64.EXE"
+    IfWinNotExist,ahk_exe "TOTALCMD64.EXE"
+    Run, "C:\Program Files\totalcmd\TOTALCMD64.EXE"
+}
+
+; 发送文本 t 到粘贴板
+SendToClipBoard(t)
+{
+    ;清空剪切板
+    clipboard =
+    clipboard = %t%
+    return 0
 }
 
 ; 绑定热键
