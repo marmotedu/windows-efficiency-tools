@@ -39,7 +39,7 @@
 |----|----|----|----|
 |Autohotkey|windows快捷键工具||★★★★★|
 |Ditto|粘贴板工具|alt + s|★★★★★|
-|EveryThing||alt + v|★★★★★|
+|EveryThing|是一款功能强大，便捷实用的文件搜索软件|alt + v|★★★★★|
 |BCompare|比较工具||★★★★|
 |TotalCommand|文件管理器|alt + q|★★★★★|
 |insomnia|http发包工具|alt + a|★★★|
