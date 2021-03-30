@@ -26,7 +26,7 @@ ActivateAndOpen(t,p)
 OpenAll()
 {
     IfWinNotExist,ahk_exe "Xshell.exe"
-    Run, "D:\EXE\MySave\Xshell-5.0\Xshell 5\Xshell.exe"
+    Run, "C:\Program Files (x86)\NetSarang\Xshell 7\Xshell.exe"
 	
     IfWinNotExist,ahk_exe "SecureCRT.exe"
     Run, "C:\Program Files\VanDyke Software\SecureCRT\SecureCRT.exe"
@@ -55,7 +55,7 @@ SendToClipBoard(t)
 
 ; 绑定热键
 !\::OpenAll()
-!e::ActivateAndOpen("Xshell.exe","D:\EXE\MySave\Xshell-6.0\Xshell 6\Xshell.exe")
+!e::ActivateAndOpen("Xshell.exe","C:\Program Files (x86)\NetSarang\Xshell 7\Xshell.exe")
 !w::ActivateAndOpen("SecureCRT.exe","C:\Program Files\VanDyke Software\SecureCRT\SecureCRT.exe")
 #s::ActivateAndOpen("WeChat.exe","C:\Program Files (x86)\Tencent\WeChat\WeChat.exe")
 !r::ActivateAndOpen("WXWork.exe","C:\Program Files (x86)\WXWork\WXWork.exe")
@@ -77,3 +77,4 @@ SendToClipBoard(t)
 
 ;粘贴板
 #0::SendToClipBoard("your@password")
+#9::SendToClipBoard("your@password2")
