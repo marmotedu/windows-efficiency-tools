@@ -6,17 +6,17 @@
   + **SendToClipBoard**可以设置密码到粘贴板
 
 ## 强烈推荐的小众软件
-+ Autohotkey 
-+ Ditto
-+ EveryThing
-+ TotalCommand
-+ BCompare
-+ Google Chrome
-+ Atom
-+ Sumatra PDF
-+ TODO-List
-+ OneNote
-+ Viso
++ Autohotkey：解放你的右手，应用切换工具、密码复制工具
++ Ditto：剪贴板工具
++ EveryThing：文件搜索利器
++ TotalCommand：文件管理工具管理工具
++ BCompare：文件对比工具
++ Google Chrome：浏览器
++ Sumatra PDF：轻量、易用PDF阅读工具
++ TODO-List：GTD工具
++ 有道云笔记：Markdown、云同步、跨端
++ Viso：绘图工具
++ FastStone：截图、改图工具
 
 ## 办公软件
 |软件|工具描述|快捷键|推荐星级|
@@ -26,12 +26,13 @@
 |Excel|微软office工具excel|alt + h|★★★★★|
 |TODO-List|微软todo list|win + 2|★★★★★|
 |Viso|微软画图工具||★★★★★|
-|OneNote|微软onenot笔记本软件|win + 1|★★★★★|
+|OneNote|微软onenot笔记本软件|win + 3|★★★★★|
 |Sumatra PDF|PDF查看工具|alt + p|★★★★★|
 |QQ电脑管家|安全软件||★★★★★|
 |FileZilla|ftp文件上传下载工具||★★★★|
 |WinMerge|合并工具||★★★★|
-|Atom|markdown笔记软件|win+e|★★★★★|
+|有道云笔记|markdown笔记软件|win+1|★★★★★|
+|FastStone|截图工具|ctrl + alt + a|★★★★★|
 
 ## 效率工具
 
@@ -42,7 +43,7 @@
 |EveryThing|是一款功能强大，便捷实用的文件搜索软件|alt + v|★★★★★|
 |BCompare|比较工具||★★★★|
 |TotalCommand|文件管理器|alt + q|★★★★★|
-|insomnia|http发包工具|alt + a|★★★|
+|Insomnia|http发包工具|alt + a|★★★|
 
 ## 开发
 |软件|工具描述|快捷键|推荐星级|
