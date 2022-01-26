@@ -6,14 +6,14 @@
   + **SendToClipBoard**可以设置密码到粘贴板
 
 ## 强烈推荐的小众软件
-+ Autohotkey：解放你的右手，应用切换工具、密码复制工具
++ Autohotkey：解放你的右手，应用切换、密码复制工具
 + Ditto：剪贴板工具
 + EveryThing：文件搜索利器
 + TotalCommand：文件管理工具管理工具
 + BCompare：文件对比工具
 + Google Chrome：浏览器
 + Sumatra PDF：轻量、易用PDF阅读工具
-+ TODO-List：GTD工具
++ TODO-List：GTD工具、云同步、跨端
 + 有道云笔记：Markdown、云同步、跨端
 + Viso：绘图工具
 + FastStone：截图、改图工具
