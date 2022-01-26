@@ -53,6 +53,7 @@
 |SecureCRT|linux终端|alt + w|★★★|
 |Mysql Workbench|mysql管理工具|alt + a|★★★|
 |Fiddler|抓包工具||★★★|
+|SwitchHosts|hosts配置工具||★★★★★|
 
 ## 工作
 
