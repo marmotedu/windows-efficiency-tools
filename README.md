@@ -14,7 +14,7 @@
 + Google Chrome：浏览器
 + Sumatra PDF：轻量、易用PDF阅读工具
 + TODO-List：GTD工具、云同步、跨端
-+ 有道云笔记：Markdown、云同步、跨端
++ 腾讯文档：Markdown、云同步、跨端
 + Viso：绘图工具
 + FastStone：截图、改图工具
 + 7ZIP：压缩文件解压、打包工具
@@ -27,12 +27,12 @@
 |Excel|微软office工具excel|alt + h|★★★★★|
 |TODO-List|微软todo list|win + 2|★★★★★|
 |Viso|微软画图工具||★★★★★|
-|OneNote|微软onenot笔记本软件|win + 3|★★★★★|
+|OneNote|微软onenot笔记本软件|win + 3|★★★★|
 |Sumatra PDF|PDF查看工具|alt + p|★★★★★|
 |QQ电脑管家|安全软件||★★★★★|
 |FileZilla|ftp文件上传下载工具||★★★★|
 |WinMerge|合并工具||★★★★|
-|有道云笔记|markdown笔记软件|win+1|★★★★★|
+|腾讯文档|markdown笔记软件|win+1|★★★★★|
 |FastStone|截图工具|ctrl + alt + a|★★★★★|
 
 ## 效率工具
